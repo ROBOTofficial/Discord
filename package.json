@@ -1,9 +1,0 @@
-{
-  "name": "discord",
-  "license": "MIT",
-  "author": "ROBOTofficial",
-  "private": true,
-  "workspaces": [
-    "GroupDmSpamProtector"
-  ]
-}

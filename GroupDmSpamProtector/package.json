@@ -2,10 +2,19 @@
   "name": "groupdmspamprotector",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "build": "npm install && npx prisma migrate dev --name \"update\""
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.3.1",
+    "bun": "^1.2.2",
+    "discord.js-selfbot-v13": "^3.5.1"
   }
 }
